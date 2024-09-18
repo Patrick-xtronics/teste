@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale="1.0">
+    <title>Delivery</title>
+</head>
+<body>
+
+    <h1>Pedido de Comida</h1>
+    <form method="POST" action="teste.txt">
+        Nome: <input type="text" name="nome"> <br>
+        E-mail: <input type="email" name="email"> <br>
+        Tamanho: 
+              <input type="radio" name="tamanho" value="g"> Grande
+              <input type="radio" name="tamanho" value="m"> Médio
+              <input type="radio" name="tamanho" value="p"> Pequeno
+              <br>              
+              Sabor: <select name="sabor">
+                     <option>Calabresa</option>
+                     <option>Marguerita</option>
+                     <option>Salame</option>
+              </select>
+              <br>
+              Adicionais:
+                  <input type="checkbox" name="borda" value="sim"> Borda
+                  <input type="checkbox" name="borda" value="sim"> Queijo Extra
+                  <br>
+              Observação: <textarea name="mensagem" rows="10" cols="30"></textarea>
+                  <input type="submit">
+                     
+
+
+    </form>
+</body>
+</html>
